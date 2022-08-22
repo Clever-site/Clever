@@ -11,3 +11,7 @@
 
     function toShow() {
     }
+window.onload = function() {
+    var iframe = document.getElementById('pdf');
+    iframe.style.display = 'none';
+}
