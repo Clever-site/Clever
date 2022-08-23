@@ -1,3 +1,4 @@
-div#header { 
-    background-image: url('background.jpg');
-}
+html, #container, .inner { background-color:transparent;}
+html {
+  background:url(background.jpg) center center no-repeat fixed;
+  background-size:cover;
