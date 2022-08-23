@@ -1,14 +1,9 @@
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url('./background.jpg') center center no-repeat fixed;
+  background:url('./background.jpg')
   background-size:cover;
 }
 body {
   max-width:800px;
   margin:25px auto;
-}
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
 }
