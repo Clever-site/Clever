@@ -1,10 +1,4 @@
-html { 
-  background: url(./background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 #viewiframe {
     { font-size:5em; position:absolute; top:20px; left:20px; z-index:2 }
