@@ -7,8 +7,7 @@ html {
 }
 
 #viewiframe {
-    position: relative;
-    left: -100px;
+    { font-size:5em; position:absolute; top:20px; left:20px; z-index:2 }
 }
 .overlay {
   z-index: 1;  
@@ -23,4 +22,3 @@ html {
 div{
 }
 
-#over { font-size:5em; position:absolute; top:20px; left:20px; z-index:2 }
