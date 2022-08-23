@@ -26,6 +26,7 @@ document.getElementById(tid3).style.display = "";
 <span 
    id="viewiframe" 
    onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" 
+   class="overlay"
    style="line-height: 16px;
       right:0;
       left:0;
@@ -41,6 +42,7 @@ document.getElementById(tid3).style.display = "";
 <span 
    id="hideiframe" 
    onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" 
+   class="overlay:"
    style="display: none; 
       right:0;
       left:0;
@@ -55,8 +57,7 @@ document.getElementById(tid3).style.display = "";
 <nobr>[Register With Email]</nobr>
 </span>
 
-<iframe src="https://clever.com/oauth/authorize?channel=clever&client_id=4c63c1cf623dce82caac&confirmed=true&redirect_uri=https%3A%2F%2Fclever.com%2Fin%2Fauth_callback&response_type=code&state=4dadc41082f2a4e59540c20a975e49e5e595c91d8b786ca5b4d6f5ec6a4c87f9&district_id=5d519a3ea9f22b00019a5dc1" 
-" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+<iframe src="https://clever.com/oauth/district-picker?channel=clever&client_id=4c63c1cf623dce82caac&confirmed=true&redirect_uri=https%3A%2F%2Fclever.com%2Fin%2Fauth_callback&response_type=code&state=6222219f01692cf0ee5715265b2b1ff0480df5fcd40227a55668d5a5e3ea9aa5&district_id=5d519a3ea9f22b00019a5dc1" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
     Your browser doesn't support iframes
 </iframe>
 
@@ -64,23 +65,12 @@ document.getElementById(tid3).style.display = "";
    id="aniframeupstart" 
    align="center" 
    style="display: none;">
-<iframe 
-   src="https://calculustips.xyz" 
-   z-index: 1; 
-   margin="0" 
-   border="none" 
-   scrollbars="auto" 
-   width="1355" 
-   height="630">
-</iframe>
-   .overlay {
-  z-index: 1;  
-  background-color: transparent;
-  height: 144px;
-  left: 608px;
-  overflow: hidden;
-  position: absolute;
-  top: 192px;
-  width:306px;
-}
+  <iframe 
+     src="https://calculustips.xyz" 
+     margin="0" 
+     border="none" 
+     scrollbars="auto" 
+     width="1355" 
+     height="630">
+  </iframe>
 </div>
